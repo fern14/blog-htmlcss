@@ -249,11 +249,11 @@ a:hover:before {
     position: absolute;
   }
   .menu ul {
-    gap: 15px;
+    gap: 10px;
     text-align: center;
   }
   .menu li {
-    padding: 10px 15px;
+    padding: 5px 10px;
     background-color: #9e6dc2;
     border-radius: 5px;
     border: 2px solid transparent;
@@ -279,12 +279,14 @@ a:hover:before {
     grid-template-columns: auto;
   }
   .menu-section h2 {
-    font-size: 20px;
+    font-size: 22px;
     justify-content: center;
+    text-align: center;
   }
   .menu-section p {
-    font-size: 16px;
+    font-size: 14px;
     justify-content: center;
+    text-align: center;
   }
   .main-section {
     display: grid;
@@ -292,7 +294,7 @@ a:hover:before {
     gap: 30px;
   }
   .main-section img {
-    width: 300px;
+    width: 100%;
   }
   .main-section h2 {
     font-size: 14px;
@@ -304,6 +306,9 @@ a:hover:before {
     display: grid;
     grid-template-columns: auto;
     gap: 30px;
+  }
+  .posts img {
+    width: 100%;
   }
   .posts p {
     font-family: "Poppins";
